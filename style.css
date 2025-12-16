@@ -28,6 +28,17 @@ header a {
     margin-right: 40px;
 }
 
+.logo {
+    margin-right: 40px;
+    font-size: 1.5em;
+    font-family: Poppins;
+}
+.logo span {
+    color: #550000;
+    font-weight: bold;
+
+}
+
 /* CAROUSEL */
 
 .carousel {
@@ -162,13 +173,12 @@ header a {
     font-size: large;
     transition: .5s;
     z-index: 100;
+    cursor: pointer;
 }
 
 .arrows .button:hover {
     background-color: #eee;
     color: #555;
-    cursor: pointer;
-
 }
 
 .carousel .list .item:nth-child(1){
